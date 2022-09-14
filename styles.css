@@ -1,0 +1,108 @@
+/* "Resetando" o CSS default do navegador */
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+header{
+    margin-top: 0;
+    max-width: 580px; 
+    width: 90%; 
+    margin: auto;
+    display: grid;
+    position: static;
+    
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 4px;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+}
+
+/* Colocando uma imagem de fundo*/
+body {
+    background-image: url(./img/Fundo.jpg); 
+    background-position: top center; 
+    background-size: 100% auto; 
+    background-repeat: no-repeat; 
+    background-color: #121214; 
+    
+}
+
+/* Configurando a parte principal*/
+main {
+    max-width: 580px; 
+    width: 90%; 
+    margin: auto;
+    display: grid;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+/* Tira as "Bolinhas" no inicio da lista*/
+ul {
+    list-style: none; 
+}
+
+/* Tudo que existe dentro do body vai pegar essa estilização*/
+body *{
+    font-family: 'Inter', sans-serif; 
+    line-height: 160%; 
+}
+
+/*Definindo a cor dos textos de todas as Section, um padding no top para deixar com um fundo em degradê com uma borda maior do que a section div*/
+section {
+    color: #FFFFFF; 
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+/*Colocando as divs filhas de section com uma cor de fundo, bordas e preenchimento de 32px, com exceção do top */
+section div {
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+/*Para todos os h2 filhos de section*/
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+/*Para todos os p filhos das section*/
+section p {
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
+
+/* Fazendo a lista não ordenada ficar como flex, espaços de 16px, e fazendo com que ele quebre linhas quando não tiver mais espaços na largura*/
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+/*Configurando as bordas e tamanho das imagens dessa classe */
+.games-list img {
+    border-radius: 8px;
+    width: 90px;
+}
+
+/*Configurando as bordas e tamanhos das imagens dessa classe */
+.channel-list img{
+    border-radius: 50%;
+    width: 70px;
+}
+
+
+
+
+
+
+
