@@ -4,6 +4,8 @@
 
 ![preview](./.github/preview.png)
 
+[Clique aqui para acessar](https://github.com/Franklinprod/nlw-esports-explorer)
+
 ## Tecnologias
 
 - HTML
